@@ -1,13 +1,15 @@
 # 🚀 OhMyDownloader
-**OhMyDownloader** es un gestor de descargas resiliente diseñado para entornos con redes hostiles o inestables.
+Gestor de descargas resiliente para entornos de red inestables. Diseñado por ElHafo6925.
 
-### Características:
-- **Resiliencia:** Persistencia absoluta mediante `aria2c` con reintentos infinitos.
-- **Interfaz Híbrida:** Diálogos gráficos con `YAD` y `Zenity`, con fallback inteligente a terminal.
-- **Auditoría Estructural:** Verifica e instala dependencias automáticamente en Debian 12.
-- **Identidad:** Creado por **ElHafo6925**.
+## Uso:
 
-### Uso:
-```bash
+**Modo Interactivo (Interfaz gráfica):**
+./oh_my_downloader.sh
+
+**Modo Directo (Línea de comandos):**
 ./oh_my_downloader.sh [URL]
-```
+
+## Características:
+* Resiliencia ante desconexiones.
+* Interfaz gráfica con Zenity.
+* Optimizado para Debian 12.
