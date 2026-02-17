@@ -4,12 +4,13 @@ Gestor de descargas resiliente para entornos de red inestables. Diseñado por El
 ## Uso:
 
 **Modo Interactivo (Interfaz gráfica):**
-./oh_my_downloader.sh
+./ohmydownloader.sh
 
 **Modo Directo (Línea de comandos):**
-./oh_my_downloader.sh [URL]
+./ohmydownloader.sh [URL]
 
 ## Características:
 * Resiliencia ante desconexiones.
-* Interfaz gráfica con Zenity.
+* Interfaz gráfica con Zenity y Yad.
+* Notificación sonora al finalizar (requiere paplay).
 * Optimizado para Debian 12.
