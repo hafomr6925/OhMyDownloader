@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 # 🚀 OhMyDownloader
 Gestor de descargas resiliente para entornos de red inestables. Diseñado por ElHafo6925.
 
