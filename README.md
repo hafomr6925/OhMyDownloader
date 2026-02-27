@@ -4,17 +4,23 @@ Gestor de descargas resiliente para entornos de red inestables. Diseñado por El
 ## 🛠 Dependencias:
 Para un despliegue óptimo en Debian 12, ejecuta el siguiente comando:
 
-```
+```bash
 sudo apt update && sudo apt install zenity yad ffmpeg
 ```
 
 Uso:
 
 Modo Interactivo (Interfaz gráfica):
+```bash
 ./ohmydownloader.sh
+```
 
 Modo Directo (Línea de comandos):
+```bash
 ./ohmydownloader.sh [URL]
+```
+
+
 Características:
 
     Resiliencia ante desconexiones.
