@@ -1,22 +1,14 @@
-🚀 OhMyDownloader
-
-
-
+cat << 'EOF' > README.md
+# 🚀 OhMyDownloader
 Gestor de descargas resiliente para entornos de red inestables. Diseñado por ElHafo6925.
-🛠 Dependencias:
 
-
-
+## 🛠 Dependencias:
 Para un despliegue óptimo en Debian 12, ejecuta el siguiente comando:
 
-
+```bash
 sudo apt update && sudo apt install zenity yad ffmpeg
 
-
-
 Uso:
-
-
 
 Modo Interactivo (Interfaz gráfica):
 ./ohmydownloader.sh
@@ -24,9 +16,6 @@ Modo Interactivo (Interfaz gráfica):
 Modo Directo (Línea de comandos):
 ./ohmydownloader.sh [URL]
 Características:
-
-
-
 
     Resiliencia ante desconexiones.
 
