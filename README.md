@@ -5,7 +5,7 @@ Gestor de descargas resiliente para entornos de red inestables. Diseñado por El
 Para un despliegue óptimo en Debian 12, ejecuta el siguiente comando:
 
 ```
-sudo apt update && sudo apt install zenity yad ffmpeg
+sudo apt update && sudo apt install zenity yad aria2
 ```
 
 Uso:
